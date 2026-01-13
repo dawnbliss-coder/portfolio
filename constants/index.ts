@@ -3,7 +3,7 @@ export const projects = [
         description : "Completed a JPMorgan Chase & Co. Quantitative Research Virtual Experience via Forage (Dec 2025). Developed a probability-of-default model and utilized dynamic programming to optimize FICO score categorization for financial risk assessment.",
         tags : ["Python", "Pandas", "NumPy", "Scikit-learn"],
         link : "https://github.com/dawnbliss-coder/quantitative-research-projects",
-        image : "/project1.png",
+        image : "/portfolio/project1.png",
     },
 ];
 

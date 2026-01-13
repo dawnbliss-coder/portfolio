@@ -17,7 +17,7 @@ export default function home() {
           <div className="md:col-span-1">
             <div className="relative aspect-square w-full max-w-[300px] mx-auto overflow-hidden rounded-2xl border-2 border-gray-800 p-2 bg-gray-900/50">
               <Image 
-                src="/me.jpg" // Change this to your actual filename in public folder
+                src="/portfolio/me.jpg" // Change this to your actual filename in public folder
                 alt="Priyanka Agarwal"
                 fill
                 className="object-cover rounded-xl"
@@ -83,7 +83,7 @@ export default function home() {
               </div>
 
               <h3 className="text-2xl font-semibold">{project.title}</h3>
-              <p className="text-gray-400 mt-2 line-clamp-2">{project.description}</p>
+              <p className="text-gray-400 mt-2 text-sm leading-relaxed">{project.description}</p>
               
               <div className="flex flex-wrap gap-2 mt-4">
                 {project.tags.map(tag => (
