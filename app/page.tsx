@@ -17,7 +17,7 @@ export default function home() {
           <div className="md:col-span-1">
             <div className="relative aspect-square w-full max-w-[300px] mx-auto overflow-hidden rounded-2xl border-2 border-gray-800 p-2 bg-gray-900/50">
               <Image 
-                src="/portfolio/me.jpg" // Change this to your actual filename in public folder
+                src="/me.jpg" // Change this to your actual filename in public folder
                 alt="Priyanka Agarwal"
                 fill
                 className="object-cover rounded-xl"

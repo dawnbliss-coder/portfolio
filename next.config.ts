@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: 'export',      // This creates a 'out' folder with static files
+  output: 'export',
   images: {
-    unoptimized: true,   // Necessary because GitHub Pages doesn't support Next.js Image Optimization
+    unoptimized: true,
   },
+  // ADD THIS LINE (Replace 'portfolio' with your actual repo name if different)
+  basePath: '/portfolio', 
 };
 
 export default nextConfig;
